@@ -1,73 +1,13 @@
 {
-	"Post": [{
-		"__metadata": {
-			"id": "mockId1",
-			"uri": "",
-			"type": ""
-		},
-		"OrderNo": "0000000001",
-		"Origin": "SING/SAFRI",
-		"PortOfDischarge": "CHATTOGRAM SEA PORT",
-		"POQuantity": "3680.000",
-		"UoM": "KGM",
-		"BLNo": "SINCGP045452436",
-		"FCLLCL": "FCL",
-		"NoOfContainer": "1",
-		"ClearingAgentCode": "1005350",
-		"ClearingAgentName": "BIPLOB TRADE OVERSEAS",
-		"CarryingAgentCode": "1004679",
-		"PONo": "4800017060",
-		"CarryingAgentName": "A H KHAN & CO",
-		"BillEntryNo": "C 150764",
-		"BillEntryDate": "/Date(1611532800000)/",
-		"DeliveryDateFromPort": "/Date(1612137600000)/",
-		"Packaging": "DRUM",
-		"PackSize": "",
-		"NoOfPackage": "80",
-		"ContainerNo": "DOMU2091268",
-		"DestinationPlant": "1000",
-		"DestinationQuantity": "3680.000",
-		"POLine": "00020",
-		"AssessmentDate": "/Date(1611792000000)/",
-		"Plant": "1100",
-		"Material": "0000000010000410",
-		"MaterialDescription": "ACETONE",
-		"LCNo": "265821020011",
-		"Vendor": "RICHILL IN"
-	}, {
-		"__metadata": {
-			"id": "mockId2",
-			"uri": "",
-			"type": ""
-		},
-		"OrderNo": "0000000001",
-		"Origin": "SING/SAFRI",
-		"PortOfDischarge": "CHATTOGRAM SEA PORT",
-		"POQuantity": "10260.000",
-		"UoM": "KGM",
-		"BLNo": "SINCGP045452436",
-		"FCLLCL": "FCL",
-		"NoOfContainer": "",
-		"ClearingAgentCode": "1005350",
-		"ClearingAgentName": "BIPLOB TRADE OVERSEAS",
-		"CarryingAgentCode": "1004679",
-		"PONo": "4800017060",
-		"CarryingAgentName": "A H KHAN & CO",
-		"BillEntryNo": "C 150764",
-		"BillEntryDate": "/Date(1611532800000)/",
-		"DeliveryDateFromPort": "/Date(1612137600000)/",
-		"Packaging": "DRUM",
-		"PackSize": "",
-		"NoOfPackage": "0",
-		"ContainerNo": "DOMU2091268",
-		"DestinationPlant": "1000",
-		"DestinationQuantity": "10260.000",
-		"POLine": "00030",
-		"AssessmentDate": "/Date(1611792000000)/",
-		"Plant": "1100",
-		"Material": "0000000010000405",
-		"MaterialDescription": "BUTYL ACETATE",
-		"LCNo": "265821020011",
-		"Vendor": "RICHILL IN"
-	}]
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
